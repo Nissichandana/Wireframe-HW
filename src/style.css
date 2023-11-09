@@ -1,0 +1,77 @@
+.container {
+    display: grid;
+    gap:5px; 
+    width: 100vh;
+    height: 100vh;
+    /* text-align: center; */
+    /* grid-template-columns: repeat(4, auto); */
+     grid-template-columns: 1fr 1fr 1fr 1fr; 
+    background-color: rgb(186, 186, 190);
+    /* padding: 10px; */
+    /* margin: auto; */
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-areas:"sidebar"
+                         "AveRating"
+                         "Reviews"
+                         "webvisitor"
+                         "sentAnalysis"; */
+
+
+           
+}
+
+
+.sidebar {
+    background-color: rgb(89, 244, 136);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: large;
+    text-align: center;
+
+    /* width: 200px;
+    height: 600px; */
+}
+
+.AveRating{
+    background-color: rgb(255, 115, 0);
+    text-align: left;
+    /* grid-column-start: 1;
+    grid-column-end: 1; */
+ 
+}
+
+.Reviews{
+    background-color: rgb(132, 165, 42);
+    text-align: left;
+
+}
+
+.webvisitor{
+    background-color: chartreuse;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: left;
+}
+
+.sentAnalysis{
+    background-color: darkcyan;
+    text-align: left;
+}
+
+body{
+    background-color: rgb(102, 117, 117);
+    /* align-items: center; */
+    display: grid;
+
+}
+.innerbox{
+background-color: blueviolet;
+width: 600px;
+height: 350px;
+margin: 33px;
+text-align: left;
+
+}
+.wid{
+    text-align: center;
+}
