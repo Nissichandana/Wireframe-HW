@@ -1,8 +1,9 @@
 .container {
     display: grid;
-    gap:5px; 
+    gap:25px; 
     width: 100vh;
     height: 100vh;
+    margin-top: 10px;
     /* text-align: center; */
     /* grid-template-columns: repeat(4, auto); */
      grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -27,6 +28,12 @@
     grid-row-end: 3;
     font-size: large;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 13%;
+    margin-left: 13%;
+    /* margin: 5%; */
+    /* margin: 20px; */
+
 
     /* width: 200px;
     height: 600px; */
@@ -35,6 +42,7 @@
 .AveRating{
     background-color: rgb(255, 115, 0);
     text-align: left;
+    margin-top: 50px;
     /* grid-column-start: 1;
     grid-column-end: 1; */
  
@@ -43,6 +51,8 @@
 .Reviews{
     background-color: rgb(132, 165, 42);
     text-align: left;
+    margin-top: 50px;
+
 
 }
 
@@ -51,11 +61,16 @@
     grid-column-start: 2;
     grid-column-end: 5;
     text-align: left;
+    margin-right: 4%;
+    margin-bottom: 4%;
 }
 
 .sentAnalysis{
     background-color: darkcyan;
     text-align: left;
+    margin-top: 50px;
+    margin-right: 10%;
+
 }
 
 body{
@@ -66,7 +81,7 @@ body{
 }
 .innerbox{
 background-color: blueviolet;
-width: 600px;
+width: 575px;
 height: 350px;
 margin: 33px;
 text-align: left;
@@ -74,4 +89,7 @@ text-align: left;
 }
 .wid{
     text-align: center;
+}
+.num{
+    align-items: center;
 }

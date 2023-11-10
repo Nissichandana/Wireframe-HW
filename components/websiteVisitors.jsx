@@ -2,7 +2,9 @@ import React from 'react'
 
 function WebsiteVisitors() {
   return (
-    <div className="webvisitor">websiteVisitors <div className="innerbox">InnerBox</div></div>
+    <div className="webvisitor">websiteVisitors <div className="innerbox">InnerBox</div>
+    
+    </div>
     
   )
 }
